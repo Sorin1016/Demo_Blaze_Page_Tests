@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="All Tests" verbose="1" >
+    <test name="All Tests" >
+        <classes>
+            <class name="DemoBlazeTests.EndToEndTests" />
+            <class name="DemoBlazeTests.LoginTests" />
+            <class name="DemoBlazeTests.SignUpTests" />
+        </classes>
+    </test>
+</suite>
